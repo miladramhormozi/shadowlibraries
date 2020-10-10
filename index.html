@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shadow Libraries</title>
+	<meta name="description" content="Pirate libraries archive">
+	<meta name="keywords" content="html, css, menu, responsive, mobile-friendly" />
+	<meta name="author" content="kato" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- food icons -->
+	<link rel="stylesheet" type="text/css" href="css/hojaestilo.css" />
+	<!-- demo styles -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- menu styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr-custom.js"></script>
+</head>
+
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<div class="dummy-logo">
+				<img src="bookviol.png" style=width:75px;height:75px>
+				<h2 class="dummy-heading">Shadow Libraries</h2>
+			</div>
+			<div class="bp-header__main">
+
+				<h1 class="bp-header__title">Shadow Libraries</h1>
+				<nav class="bp-nav">
+					
+					<p> <a href="http://shadowlibraries.online/"><img src="uk-flag.png"></a>  <a href="http://shadowlibraries.online/esp/"><img src="spain-flag.png"></a> </p>
+					<a class="bp-nav__item bp-icon bp-icon--archive" href="https://lbry.tv/@ShadowLibraries:4" data-info="LBRY Channel"><span>Go to the LBRY Channel</span></a>
+				</nav>
+			</div>
+		</header>
+		<button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
+		<nav id="ml-menu" class="menu">
+			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+			<div class="menu__wrap">
+				<ul data-menu="main" class="menu__level" tabindex="-1" role="menu" aria-label="All">
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">Direct Downloads</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2" aria-owns="submenu-2" href="#">Torrents</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-3" aria-owns="submenu-3" href="#">IRC Channels</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-4" aria-owns="submenu-4" href="#">Telegram Bots</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-5" aria-owns="submenu-5" href="#">Reading online [English]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-6" aria-owns="submenu-6" href="#">About this site</a></li>
+				</ul>
+				<!-- Submenu 1 -->
+				<ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="Direct Downloads">
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">LibGen [Multi-Lang]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Sci-Hub [Multi-Lang]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Internet Archive [Multi-Lang]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Trantor [Multi-Lang]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">CALISHOT [Multi-Lang]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">All IT eBooks [English]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Forcoder.su [English]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Lectulandia [Spanish]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Ebiblioteca [Spanish]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Ebookelo [Spanish]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Open Directory Library [Italian]</a></li>
+				
+
+				</ul>
+				<!-- Submenu 2 -->
+				<ul data-menu="submenu-2" id="submenu-2" class="menu__level" tabindex="-1" role="menu" aria-label="Torrents">
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Academic Torrents [English]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Epublibre [Spanish]</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Torrent packs</a></li>
+
+								
+
+				</ul>
+				<!-- Submenu 3 -->
+				<ul data-menu="submenu-3" id="submenu-3" class="menu__level" tabindex="-1" role="menu" aria-label="IRC Channels">
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Getting books from IRC Channels</a></li>
+
+
+				</ul>
+
+				
+	
+				
+				
+				
+			</div>
+
+		</nav>
+
+		<div class="content">
+			<p class="info">Please select your download method</br><img src="pirate-logo-color.png" style=width:180px;height:180px></p>
+
+			<!-- Ajax loaded content here -->
+		</div>
+	</div>
+	<!-- /view -->
+	<script src="js/classie.js"></script>
+	<script src="js/dummydata.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	(function() {
+		var menuEl = document.getElementById('ml-menu'),
+			mlmenu = new MLMenu(menuEl, {
+				// breadcrumbsCtrl : true, // show breadcrumbs
+				// initialBreadcrumb : 'all', // initial breadcrumb text
+				backCtrl : false, // show back button
+				// itemsDelayInterval : 60, // delay between each menu item sliding animation
+				onItemClick: loadDummyData // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
+			});
+
+		// mobile menu toggle
+		var openMenuCtrl = document.querySelector('.action--open'),
+			closeMenuCtrl = document.querySelector('.action--close');
+
+		openMenuCtrl.addEventListener('click', openMenu);
+		closeMenuCtrl.addEventListener('click', closeMenu);
+
+		function openMenu() {
+			classie.add(menuEl, 'menu--open');
+			closeMenuCtrl.focus();
+		}
+
+		function closeMenu() {
+			classie.remove(menuEl, 'menu--open');
+			openMenuCtrl.focus();
+		}
+
+		// simulate grid content loading
+		var gridWrapper = document.querySelector('.content');
+
+		function loadDummyData(ev, itemName) {
+			ev.preventDefault();
+
+			closeMenu();
+			gridWrapper.innerHTML = '';
+			classie.add(gridWrapper, 'content--loading');
+			setTimeout(function() {
+				classie.remove(gridWrapper, 'content--loading');
+				gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
+			}, 700);
+		}
+	})();
+	</script>
+</body>
+
+</html>
