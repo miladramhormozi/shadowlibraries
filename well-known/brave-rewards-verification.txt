@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: shadowlibraries.github.io
+Token: 4f9e1e33f67839fda689c4306fdb1bb2cf0dbd6d10be4a78db89de5b32901366
