@@ -45,7 +45,7 @@ var dummyData = {
 
 
 
-"Telegram Bots":"<li><div><p style=text-align:left;color:#a480ff><b>Links:</b></p></div></li><div><p style=text-align:left><a href=https://t.me/BookDownloadBot target=_blank><u>@BookDownloadBot</u></a> (Books in English)</p></div><div><p style=text-align:left> <a href=https://t.me/BibliotecaLibreBot target=_blank><u>@BibliotecaLibreBot</u></a> (Books in Spanish)</p><p><img src=https://i.imgur.com/Qu05N6D.png class=center style=width:370px;height:300px> </p></div>",
+"Telegram Bots":"<li><div><p style=text-align:left;color:#a480ff><b>Links:</b></p></div></li><div><p style=text-align:left><a href=https://t.me/BookDownloadBot target=_blank><u>@BookDownloadBot</u></a> (Books in English)</p></div><div><p style=text-align:left> <a href=https://t.me/TuBibliotecaLibreBot target=_blank><u>@TuBibliotecaLibreBot</u></a> (Books in Spanish)</p><p><img src=https://i.imgur.com/Qu05N6D.png class=center style=width:370px;height:300px> </p></div>",
 
 
 "Reading online [English]":"<li><div><p style=text-align:left;color:#a480ff><b>Links:</b></p></div></li><div><p style=text-align:left><a href=https://readanybook.com/ target=_blank><u>ReadAnyBook</u></a></p></div><div><p style=text-align:left> <a href=https://novels80.com/ target=_blank><u>Novels80</u></a> </p></div>",
