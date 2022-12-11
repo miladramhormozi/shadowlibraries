@@ -39,7 +39,7 @@ var dummyData = {
 
 
 
-"Telegram Bots":"<li><div><p style=text-align:left;color:#a480ff><b>Links:</b></p></div></li><div><p style=text-align:left><a href=https://t.me/bookdownbot target=_blank><u>@bookdownbot</u></a> (Books in English)</p></div><div><p><img src=https://i.imgur.com/Qu05N6D.png class=center style=width:370px;height:300px> </p></div>",
+"Telegram Bots":"<li><div><p style=text-align:left;color:#a480ff><b>Links:</b></p></div></li><div><p style=text-align:left><a href=https://t.me/bookdownbot target=_blank><u>@bookdownbot</u></a> (Books in English)</p></div><br><li><div><p style=text-align:left;color:#a480ff><b>Alternatives:</b></p></div></li><div><p style=text-align:left><a href=http://bibliotecasecreta.nl target=_blank><u>BibliotecaSecreta</u></a> (Contains up-to-date Telegram bots)</p></div><div><p><img src=https://i.imgur.com/Qu05N6D.png class=center style=width:370px;height:300px> </p></div>",
 
 
 "Reading online [English]":"<li><div><p style=text-align:left;color:#a480ff><b>Links:</b></p></div></li><div><p style=text-align:left><a href=https://readanybook.com/ target=_blank><u>ReadAnyBook</u></a></p></div><div><p style=text-align:left> <a href=https://novels80.com/ target=_blank><u>Novels80</u></a> </p></div>",
