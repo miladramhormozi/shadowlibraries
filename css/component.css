@@ -126,6 +126,10 @@
 	-webkit-animation: outToRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
 	animation: outToRight 0.6s both cubic-bezier(0.7, 0, 0.3, 1);
 }
+#random-image {
+	width:360px;
+	height:275px;
+}
 
 @-webkit-keyframes outToRight {
 	to {
@@ -343,5 +347,9 @@
 	.menu--open {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+	}
+	#random-image {
+		width: 90%;
+		height: auto;
 	}
 }
