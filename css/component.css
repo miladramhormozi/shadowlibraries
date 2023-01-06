@@ -131,6 +131,18 @@
 	height:275px;
 }
 
+.titunotf {
+	text-align:center;
+	color:#a480ff;
+	font-size: 3rem;
+	padding: 10vh 1em 0;
+}
+
+.map {
+	width: 15rem;
+	height: 15rem;
+}
+
 @-webkit-keyframes outToRight {
 	to {
 		opacity: 0;

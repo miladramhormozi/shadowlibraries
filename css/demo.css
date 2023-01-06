@@ -238,6 +238,12 @@ h4 {
 	margin: 0 150px 0 350px;
 }
 
+.contentnf {
+	position: relative;
+	min-height: 300px;
+	margin: 0 150px 0 150px;
+}
+
 .content--loading {
 	background: url(../img/loading.svg) no-repeat 50% 50%;
 }
@@ -267,6 +273,14 @@ h4 {
 	font-size: 1.1em;
 	font-weight: bold;
 	padding: 20vh 1em 0;
+	text-align: center;
+	color: #47484c;
+}
+
+.infonf {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 1% 0;
 	text-align: center;
 	color: #47484c;
 }
