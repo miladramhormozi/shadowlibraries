@@ -241,7 +241,7 @@ h4 {
 .contentnf {
 	position: relative;
 	min-height: 300px;
-	margin: 0 150px 0 150px;
+	margin: 0 1%;
 }
 
 .content--loading {
@@ -322,5 +322,11 @@ body #cdawrap a:hover.carbon-poweredby {
 	.container {
 		height: auto;
 		overflow: auto;
+	}
+
+	.contentnf {
+		position: relative;
+		min-height: 1%;
+		margin: 0 1%;
 	}
 }

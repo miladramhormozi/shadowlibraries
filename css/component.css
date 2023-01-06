@@ -364,4 +364,9 @@
 		width: 90%;
 		height: auto;
 	}
+	.map {
+		max-width: 15rem;
+		width: 80%;
+		height: auto;
+	}
 }
